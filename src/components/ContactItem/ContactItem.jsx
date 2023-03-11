@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { P, Name, Button } from './ContactItem.styled';
-import { GrClose } from 'react-icons/gr';
 
 function ContactItem({ name, number, id, onClick }) {
   return (
@@ -10,7 +9,7 @@ function ContactItem({ name, number, id, onClick }) {
         <Name>{name}:</Name> {number}
       </P>
       <Button id={id} type="button" onClick={onClick}>
-        <GrClose />
+        -
       </Button>
     </>
   );

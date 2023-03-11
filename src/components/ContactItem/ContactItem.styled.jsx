@@ -17,6 +17,9 @@ export const Name = styled.span`
 export const Button = styled.button`
   width: 25px;
   height: 25px;
+  text-aling: center;
+  padding: 0;
+  font-size: 18px;
   border-radius: 5px;
   border: none;
   cursor: pointer;
